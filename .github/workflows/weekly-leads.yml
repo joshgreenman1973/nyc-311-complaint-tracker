@@ -15,7 +15,9 @@ concurrency:
 jobs:
   leads:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # 150, not 90: Socrata read stalls push runs to ~85 min (Aug 31), and the
+    # Aug 24 run was cancelled at 90 while still retrying.
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 

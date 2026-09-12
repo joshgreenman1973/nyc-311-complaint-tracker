@@ -68,12 +68,17 @@ def _fetch(url, params, attempts, timeout):
             r = requests.get(url, params=params, timeout=timeout, headers=UA)
             if r.status_code >= 500 or r.status_code == 429:
                 raise requests.exceptions.HTTPError(f"{r.status_code} for {url}", response=r)
+            if r.status_code == 403 and "authentication_required" in r.text:
+                raise requests.exceptions.HTTPError(f"403 throttled for {url}", response=r)
             r.raise_for_status()
             return r.json()
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError,
                 requests.exceptions.HTTPError, json.JSONDecodeError) as e:
             status = getattr(getattr(e, "response", None), "status_code", None)
-            if status is not None and status < 500 and status != 429:
+            # Keyless Socrata answers a throttled IP with 403
+            # "authentication_required", not 429 -- that one is transient.
+            throttled = status == 403 and "authentication_required" in (getattr(e.response, "text", "") or "")
+            if status is not None and status < 500 and status != 429 and not throttled:
                 raise FetchError(f"{status} from {url} params={params}: {getattr(e.response, 'text', '')[:300]}")
             last = e
             if i < attempts - 1:
@@ -83,14 +88,17 @@ def _fetch(url, params, attempts, timeout):
     raise FetchError(f"gave up on {url}: {last}")
 
 
-def soql(dataset, base=NYC, **params):
-    """Convenience: soql('erm2-nwe9', select='...', where='...', group='...')."""
+def soql(dataset, base=NYC, timeout=180, attempts=4, **params):
+    """Convenience: soql('erm2-nwe9', select='...', where='...', group='...').
+    timeout/attempts: lookups that come back in a second or two when Socrata is
+    healthy should pass a short timeout and more attempts, so a stalled request
+    is abandoned in a minute rather than three."""
     p = {}
     for k, v in params.items():
         if v is None:
             continue
         p["$" + k] = v
-    return fetch(f"{base}/{dataset}.json", p)
+    return fetch(f"{base}/{dataset}.json", p, attempts=attempts, timeout=timeout)
 
 
 def soql_all(dataset, base=NYC, page=5000, max_rows=200000, **params):

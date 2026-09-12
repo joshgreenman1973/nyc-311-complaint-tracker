@@ -444,20 +444,60 @@ def collect_places(end=None):
         pl.pop("boro", None)
         out.append(pl)
     out.sort(key=lambda p: -p["score"])
-    # coordinates for the map: 311's own geocode per BBL (any request in the last year)
+    # Coordinates for the map: 311's own geocode per BBL, averaged over every
+    # request it has for that lot in the last year.
+    #
+    # The Sept 7 2026 build died here: the one-year group-and-average over 311
+    # stalled past the 180s read timeout on all four attempts. Socrata stalls
+    # at random on erm2-nwe9 (the same query can take 0.3s or never return), and
+    # a year-wide aggregate is the heaviest shape to retry. So ask in two passes:
+    # the same average over 30 days, which covers nearly every lot, then page
+    # the raw rows for the year and average here for whatever the short window
+    # missed. Both take a second or two when the server is healthy, so they use
+    # a 60s timeout with more attempts: a stalled request is dropped and re-sent
+    # instead of eating three minutes a try. Still fails loud if all attempts
+    # stall.
     ys, ye = window(end, 365)
+    ys30, ye30 = window(end, 30)
     keys = [p["bbl"] for p in out if p.get("bbl")]
     coords = {}
+
+    def bbl_in(batch):
+        return "bbl in(" + ",".join(f"'{k}'" for k in batch) + ")"
+
     for i in range(0, len(keys), 150):
         batch = keys[i:i + 150]
         rows = soql("erm2-nwe9", select="bbl, avg(latitude) as lat, avg(longitude) as lon",
-                    where=f"{where_between('created_date', ys, ye)} AND latitude IS NOT NULL AND bbl in(" + ",".join(f"'{k}'" for k in batch) + ")",
-                    group="bbl", limit=5000)
+                    where=f"{where_between('created_date', ys30, ye30)} AND latitude IS NOT NULL AND {bbl_in(batch)}",
+                    group="bbl", limit=5000, timeout=60, attempts=6)
         for r in rows:
             try:
                 coords[r["bbl"]] = (round(float(r["lat"]), 6), round(float(r["lon"]), 6))
             except (TypeError, ValueError, KeyError):
                 pass
+
+    missing = [k for k in keys if k not in coords]
+    for i in range(0, len(missing), 150):
+        batch = missing[i:i + 150]
+        acc = defaultdict(lambda: [0.0, 0.0, 0])
+        rows = soql_all("erm2-nwe9", page=5000, max_rows=120000,
+                        select="bbl, latitude, longitude",
+                        where=f"{where_between('created_date', ys, ye)} AND latitude IS NOT NULL AND {bbl_in(batch)}",
+                        order="unique_key", timeout=60, attempts=6)
+        for r in rows:
+            try:
+                a = acc[r["bbl"]]
+                a[0] += float(r["latitude"])
+                a[1] += float(r["longitude"])
+                a[2] += 1
+            except (TypeError, ValueError, KeyError):
+                pass
+        for bbl, (slat, slon, n) in acc.items():
+            if n:
+                coords[bbl] = (round(slat / n, 6), round(slon / n, 6))
+    print(f"[places] coordinates: {len(keys) - len(missing)} from 30d, "
+          f"{len(coords) - (len(keys) - len(missing))} from the 365d fallback")
+
     for p in out:
         c = coords.get(p.get("bbl"))
         if c:
