@@ -241,13 +241,18 @@ def synthesize_district(cd_code, district_311, spikes, reddit_posts, news_articl
 
     try:
         client = anthropic.Anthropic()
+        # Claude Haiku 5.5 thinks by default and thinking counts toward max_tokens:
+        # low effort, a roomy cap, and the answer read from the text blocks.
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=2000,
+            model="claude-haiku-5-5",
+            max_tokens=8192,
+            output_config={"effort": "low"},
             messages=[{"role": "user", "content": prompt}],
         )
+        if response.stop_reason == "refusal":
+            raise RuntimeError("model declined")
 
-        text = response.content[0].text.strip()
+        text = "".join(b.text for b in response.content if b.type == "text").strip()
 
         # Parse JSON from response (handle markdown code blocks)
         if "```json" in text:

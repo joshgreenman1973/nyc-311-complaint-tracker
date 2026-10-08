@@ -337,7 +337,7 @@ def synthesize(leads):
         "required": ["id", "headline", "why_now", "confidence"], "additionalProperties": False}}},
         "required": ["leads"], "additionalProperties": False}
     with client.beta.messages.stream(
-        model="claude-opus-5", max_tokens=16000,
+        model="claude-opus-5-5", max_tokens=16000,
         betas=["server-side-fallback-2026-07-01"], fallbacks="default",
         system=SYNTH_SYSTEM,
         output_config={"effort": "medium", "format": {"type": "json_schema", "schema": schema}},
