@@ -254,20 +254,25 @@ def build_week_row(week_ending, collisions, hpd, vacates, restaurants, shootings
     # Collisions publish 6-10 weeks late and NYPD's shooting file is quarterly, so a
     # "last 7 days" query legitimately returns nothing. Write blanks, not zeros — a
     # zero here reads as "no crashes this week" and produced -100% YoY artifacts.
-    def lag(v):
-        return "" if not v else v
+    # Blank a whole source only when it returned no records; once there are crashes,
+    # a zero (e.g. nobody killed) is a real count and stays a zero.
+    has_crashes = bool(collisions and collisions["total_crashes"])
+    has_shootings = bool(shootings and shootings["total_incidents"])
+
+    def lag(present, v):
+        return v if present else ""
 
     return {
         "week_ending": week_ending,
-        "crashes": lag(collisions["total_crashes"] if collisions else 0),
-        "persons_injured": lag(collisions["persons_injured"] if collisions else 0),
-        "persons_killed": lag(collisions["persons_killed"] if collisions else 0),
-        "pedestrians_injured": lag(collisions["pedestrians_injured"] if collisions else 0),
-        "pedestrians_killed": lag(collisions["pedestrians_killed"] if collisions else 0),
-        "cyclists_injured": lag(collisions["cyclists_injured"] if collisions else 0),
-        "shooting_incidents": lag(shootings["total_incidents"] if shootings else 0),
-        "shooting_victims": lag(shootings["total_victims"] if shootings else 0),
-        "shooting_murders": lag(shootings["murders"] if shootings else 0),
+        "crashes": lag(has_crashes, collisions["total_crashes"] if collisions else 0),
+        "persons_injured": lag(has_crashes, collisions["persons_injured"] if collisions else 0),
+        "persons_killed": lag(has_crashes, collisions["persons_killed"] if collisions else 0),
+        "pedestrians_injured": lag(has_crashes, collisions["pedestrians_injured"] if collisions else 0),
+        "pedestrians_killed": lag(has_crashes, collisions["pedestrians_killed"] if collisions else 0),
+        "cyclists_injured": lag(has_crashes, collisions["cyclists_injured"] if collisions else 0),
+        "shooting_incidents": lag(has_shootings, shootings["total_incidents"] if shootings else 0),
+        "shooting_victims": lag(has_shootings, shootings["total_victims"] if shootings else 0),
+        "shooting_murders": lag(has_shootings, shootings["murders"] if shootings else 0),
         "hpd_complaints": hpd_total,
         "hpd_heat_hot_water": heat_hw,
         "hpd_heat_pct": round(heat_hw / hpd_total * 100, 1) if hpd_total else 0,
@@ -370,7 +375,7 @@ def generate_flags(row, existing_rows, collisions, hpd, vacates, restaurants, sh
         return round((current - baseline) / baseline * 100, 1)
 
     # --- Crash anomalies ---
-    if collisions:
+    if collisions and row["crashes"] != "":
         crash_avg = avg("crashes")
         killed = int(row.get("persons_killed", 0))
         killed_avg = avg("persons_killed")
