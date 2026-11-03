@@ -15,27 +15,27 @@ Live: https://joshgreenman1973.github.io/nyc-311-complaint-tracker/ (repo name p
 
 ## Original design (district map)
 
-An early-warning system for neighborhood-level stories across New York City. It scans nine data sources — 311 complaints, community board meetings and budget requests, land use applications, constituent service cases, building permits, Reddit, and local news — and synthesizes them into story leads for each of the city's 59 community districts.
+An early-warning system for neighborhood-level stories across New York City. It scans nine data sources — 311 complaints, community board meetings and budget requests, land use applications, constituent service cases, building permits, Reddit and local news — and synthesizes them into story leads for each of the city's 59 community districts.
 
-The tool is built on a simple editorial premise: local stories don't appear out of nowhere. Before a neighborhood concern becomes a media story, it leaves traces across multiple city systems — 311 call logs, community board agendas, council casework, building permits, land use filings, local Reddit threads, and news coverage. This tool surfaces those traces and highlights where they converge.
+The tool assumes that local stories don't appear out of nowhere. Before a neighborhood concern becomes a media story, it leaves traces across multiple city systems — 311 call logs, community board agendas, council casework, building permits, land use filings, local Reddit threads and news coverage. This tool surfaces those traces and highlights where they converge.
 
 ## The editorial logic
 
 Each data source tells you something different:
 
-- **311 complaints** tell you what is being reported — the raw signal of resident frustration, tested for statistical anomalies against an 8-week rolling baseline. Covers 90 days of data, updated daily.
-- **Community board meetings** tell you what is becoming organized — scraped from 59 CB WordPress sites with committee classifications (land use, public safety, housing, transportation, SLA/licensing, etc.). When an issue gets on a committee agenda, someone is trying to do something about it.
+- **311 complaints** tell you what residents are reporting, tested for statistical anomalies against an 8-week rolling baseline. Covers 90 days of data, updated daily.
+- **Community board meetings** tell you what is becoming organized — scraped from 59 community board WordPress sites with committee classifications (land use, public safety, housing, transportation, SLA/licensing, etc.). When an issue gets on a committee agenda, someone is trying to do something about it.
 - **CB budget requests** tell you what districts keep asking the city to fund — the same request showing up year after year means the problem hasn't been solved.
 - **Council constituent-service logs** tell you what is politically sticky — issues that residents have escalated to their elected officials. 90 days of casework by type.
-- **ULURP / land use applications** tell you what is about to become a fight — rezonings, shelter sitings, special permits, and street redesigns in the pipeline before they hit the news.
-- **DOB building permits** tell you where the physical landscape is changing — spikes in new building, demolition, or alteration filings signal development pressure.
-- **Reddit discussions** tell you what the public conversation looks like — ~12 NYC subreddits (r/nyc, r/Brooklyn, r/astoria, r/Queens, etc.) mapped to community districts by neighborhood name extraction.
-- **Local news** tells you whether an issue has broken through — RSS feeds from 11+ outlets including THE CITY, Gothamist, Hell Gate, City Limits, Bklyner, QNS, Bronx Times, Staten Island Advance, Patch NYC, Curbed, and amNewYork.
-- **AI synthesis** (Claude API) combines signals from all sources to identify 3-5 story leads per district, ranked by recency, severity, and convergence.
+- **ULURP / land use applications** tell you what is about to become a fight — rezonings, shelter sitings, special permits and street redesigns in the pipeline before they hit the news.
+- **DOB building permits** tell you where construction is changing a neighborhood — spikes in new building, demolition or alteration filings signal development pressure.
+- **Reddit discussions** tell you what the public conversation looks like — ~12 New York City subreddits (r/nyc, r/Brooklyn, r/astoria, r/Queens, etc.) mapped to community districts by neighborhood name extraction.
+- **Local news** tells you whether an issue has broken through — RSS feeds from 11+ outlets including THE CITY, Gothamist, Hell Gate, City Limits, Bklyner, QNS, Bronx Times, Staten Island Advance, Patch NYC, Curbed and amNewYork.
+- **AI synthesis** (Claude API) combines signals from all sources to identify 3-5 story leads per district, ranked by recency, severity and convergence.
 
 ### The convergence signal
 
-The most valuable output of this tool is convergence. When a 311 spike in noise complaints lines up with a community board SLA/licensing committee meeting, a council constituent casework trend, and Reddit threads about the same block — that is often the moment before the issue graduates into a media story. The tool is designed to surface these convergences automatically.
+The tool looks for convergence. When a 311 spike in noise complaints lines up with a community board SLA/licensing committee meeting, a council constituent casework trend and Reddit threads about the same block, the issue is often about to become a media story. The tool is designed to surface these convergences automatically.
 
 ## How it works
 
@@ -154,7 +154,7 @@ The editorial framework behind this tool identifies several additional source la
 - **BIDs and merchant groups** — early detection of corridor deterioration
 - **The informal layer**: tenant associations, block associations, precinct community WhatsApps, local Facebook groups, parent listservs, mosque/church/synagogue newsletters, mutual-aid chats
 
-These aren't available through public APIs, but they represent where the most granular early signals live.
+These aren't available through public APIs, but they would carry the most granular early signals.
 
 ## File structure
 

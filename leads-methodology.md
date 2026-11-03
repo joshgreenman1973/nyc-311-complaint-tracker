@@ -5,9 +5,9 @@ The front page of the Neighborhood Story Finder is district-first: pick one of t
 ## The district page
 
 - **311, four ways.** *Above seasonal norm* — the anomaly test below. *Biggest by volume* — the district's 15 largest complaint types this month, each shown against its own expected value. *Rising this week* — types whose last 7 days beat the average of the prior three weeks by 50%+ (5+ complaints). *12-week trends* — weekly counts for the largest types. All from `erm2-nwe9`, grouped server-side by community board and complaint type in twelve 7-day buckets.
-- **Other record systems, latest window vs the window before** (`district_stats.py`): HPD violations issued (30 days, `wvxf-dwi5`), HPD complaints received (28 days, `ygpa-z7cr`), DOB complaints (30 days, `eabe-havv`), residential marshal evictions (60 days, `6z8x-wfk4`), HPD vacate orders (60 days, `tb8q-a3ar`). Ratios are suppressed when the prior window has fewer than 5 records.
-- **Also on the district page:** major felonies (NYPD CompStat 28-day precinct counts, area-weighted onto districts via a precinct/district overlap crosswalk — approximate, and labelled with the report week), HPD litigation opened, new-building and demolition filings, DOB safety violations, restaurants closed by DOHMH, deeds recorded (ACRIS master + legals + parties, mapped to districts through PLUTO; ACRIS runs 2-3 weeks behind, so its window is its own and is printed on the tile), and news attention (Google News headlines naming the district in the last 7 days).
-- **Every number on a tile opens the underlying records** — the exact SoQL query for that district and window — so nothing has to be taken on faith. Every window is printed as a date range, never as "30 days".
+- **Other record systems, latest window vs the window before** (`district_stats.py`): Housing Preservation and Development (HPD) violations issued (30 days, `wvxf-dwi5`), HPD complaints received (28 days, `ygpa-z7cr`), Department of Buildings (DOB) complaints (30 days, `eabe-havv`), residential marshal evictions (60 days, `6z8x-wfk4`), HPD vacate orders (60 days, `tb8q-a3ar`). Ratios are suppressed when the prior window has fewer than 5 records.
+- **Also on the district page:** major felonies (New York Police Department CompStat 28-day precinct counts, area-weighted onto districts via a precinct/district overlap crosswalk — approximate, and labelled with the report week), HPD litigation opened, new-building and demolition filings, DOB safety violations, restaurants closed by the health department (DOHMH), deeds recorded (Automated City Register Information System, or ACRIS: master + legals + parties, mapped to districts through the city's PLUTO tax-lot file; ACRIS runs 2-3 weeks behind, so its window is its own and is printed on the tile) and news attention (Google News headlines naming the district in the last 7 days).
+- **Every number on a tile opens the underlying records** — the exact SoQL (Socrata Query Language) query for that district and window — so nothing has to be taken on faith. Every window is printed as a date range, never as "30 days".
 - **Buildings, leads, liquor filings, land use, City Record notices** — described below.
 
 ## What a lead is
@@ -29,9 +29,9 @@ The unit is the tax lot (BBL). Eight timely, place-keyed feeds are joined on it:
 | Marshal evictions | `6z8x-wfk4` | 60 days | `bbl` |
 | SLA pending liquor licenses | NY State Open Data `f8i8-k2gm` | 60 days | point-in-polygon to district; address to lot |
 
-A lot enters the candidate pool with six or more 311 calls in 14 days, eight or more HPD violations (or four class C) in 30 days, five or more HPD complaints in 14 days, three or more DOB complaints in 30 days, four or more OATH violations, any vacate order, or two or more residential evictions.
+A lot enters the candidate pool with six or more 311 calls in 14 days, eight or more HPD violations (or four class C) in 30 days, five or more HPD complaints in 14 days, three or more DOB complaints in 30 days, four or more Office of Administrative Trials and Hearings (OATH) violations, any vacate order or two or more residential evictions.
 
-**Convergence is counted across independent record families, not raw feeds.** 311, HPD complaints and DOB complaints are all resident reports — the latter two are largely 311 intake — so they count once, together. The four families are:
+**Convergence is counted by independent record family.** 311, HPD complaints and DOB complaints are all resident reports — the latter two are largely 311 intake — so they count once, together. The four families are:
 
 - resident reports (311, HPD complaints, DOB complaints)
 - inspector findings (HPD violations, OATH violations)
@@ -42,7 +42,7 @@ A lot becomes a lead when two or more families agree, or when a single source is
 
 ### 2. District anomalies (seasonal baseline)
 
-For every community district x 311 complaint type, the last 28 days are compared with the **same 28-day window in each of the prior three years** (weekday-aligned by shifting 364 days; scaled by the ratio of citywide volume then vs now) and with the **recent eight-week pace**. Expected = the higher of the two, so a pair is only flagged when it beats both the seasonal norm and the recent trend. Flag if the count is 20+ (10+ for a life-safety type), at least 1.5x expected, and z = (observed - expected)/sqrt(expected + 1) is 3 or more. "Accelerating" means the last 7 days are at least 1.3x the average of the prior three weeks.
+For every community district x 311 complaint type, the last 28 days are compared with the **same 28-day window in each of the prior three years** (weekday-aligned by shifting 364 days; scaled by the ratio of citywide volume then vs now) and with the **recent eight-week pace**. Expected = the higher of the two, so a pair is only flagged when it beats both the seasonal norm and the recent trend. Flag if the count is 20+ (10+ for a life-safety type), at least 1.5x expected and z = (observed - expected)/sqrt(expected + 1) is 3 or more. "Accelerating" means the last 7 days are at least 1.3x the average of the prior three weeks.
 
 Complaint types with no citywide track record in the seasonal windows are skipped here (they are renames or new intake categories, and would otherwise all read as 100x spikes); the novelty detector handles them.
 
@@ -50,7 +50,7 @@ Signal = 0.7 x min(z/30, 1) + 0.2 if a life-safety type + 0.15 if accelerating; 
 
 ### 3. New in 311 (novelty)
 
-Descriptors with 25+ reports in the last 56 days that were absent from, or at least 4x rarer in, the same 56-day window in each of the prior two years (volume-adjusted). Three rename filters, because 311 periodically relabels its own descriptors: a descriptor is set aside as a taxonomy change, not a lead, when (a) its complaint type is itself new and carries 100+ reports (volume that used to be filed under another type), (b) it accounts for 40%+ of a type whose total is flat, or two or more "new" descriptors appear under one flat type at once, or (c) descriptors under the same type that existed in prior years have vanished, in volume at least half the new descriptor's — the signature of a swap. Set-aside items are published in `leads.json` under `taxonomy_changes` so nobody has to rediscover them. In the first run (Aug 2026) this set aside 55 relabels — the Water System → Water Maintenance migration, the Noise descriptor split, "Lead Kit" — and left five genuinely new descriptors.
+Descriptors with 25+ reports in the last 56 days that were absent from, or at least 4x rarer in, the same 56-day window in each of the prior two years (volume-adjusted). Three rename filters, because 311 periodically relabels its own descriptors: a descriptor is set aside as a taxonomy change, not a lead, when (a) its complaint type is itself new and carries 100+ reports (volume that used to be filed under another type), (b) it accounts for 40%+ of a type whose total is flat, or two or more "new" descriptors appear under one flat type at once, or (c) descriptors under the same type that existed in prior years have vanished, in volume at least half the new descriptor's — the signature of a swap. Set-aside items are published in `leads.json` under `taxonomy_changes` so nobody has to rediscover them. In the first run (Aug 2026) this set aside 55 relabels — the Water System → Water Maintenance migration, the Noise descriptor split, "Lead Kit" — and left five new descriptors.
 
 Signal = 0.6 x min(n/200, 1) + 0.4 if the top district holds 30%+ of the reports.
 
@@ -66,7 +66,7 @@ If an `ANTHROPIC_API_KEY` is present, the top 20 leads are sent to Claude (model
 
 ## District feeds (D)
 
-Shown on each district panel, not ranked: ZAP land-use applications with a milestone in the last 60 days (`hgx4-8ukb`), City Record notices from the last 14 days naming the district or one of its neighborhoods (via the City Record Digest in `joshgreenman1973/experiments`), pending liquor licenses located in the district, and sidewalk-shed counts from the shed tracker.
+Shown on each district panel, not ranked: Zoning Application Portal (ZAP) land-use applications with a milestone in the last 60 days (`hgx4-8ukb`), City Record notices from the last 14 days naming the district or one of its neighborhoods (via the City Record Digest in `joshgreenman1973/experiments`), pending liquor licenses located in the district and sidewalk-shed counts from the shed tracker.
 
 ## Feeds considered and rejected
 
@@ -86,7 +86,7 @@ Kept out on purpose because they cannot support an early-warning claim:
 - HPD violations follow inspections; an inspection sweep produces a violation cluster without any change in conditions.
 - A district anomaly can be a change in how 311 routes or names complaints. The taxonomy filter catches the citywide cases, not district-level routing changes.
 - Google News RSS returns titles only, so the coverage check misses stories that mention the place in the body but not the headline. "No coverage found" means no headline matched, not that nobody has written it.
-- Community district assignment for state SLA data is point-in-polygon on the license's coordinates; roughly a fifth of NYC applications carry no coordinates and are dropped.
+- Community district assignment for State Liquor Authority (SLA) data is point-in-polygon on the license's coordinates; roughly a fifth of New York City applications carry no coordinates and are dropped.
 
 ## Verification
 

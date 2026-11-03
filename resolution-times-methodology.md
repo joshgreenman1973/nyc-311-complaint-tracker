@@ -72,7 +72,7 @@ The legend beneath the map displays the actual numeric thresholds for the curren
 
 ### Agency breakdown
 
-The agency chart shows resolution times for the **top 15 agencies by complaint volume** in the current selection, sorted by median resolution time. Selecting by volume (rather than by slowest median) ensures that high-volume fast responders — such as NYPD (noise, illegal parking) and DHS (homeless outreach) — are included alongside slower agencies like HPD and TLC.
+The agency chart shows resolution times for the **top 15 agencies by complaint volume** in the current selection, sorted by median resolution time. Selecting by volume (rather than by slowest median) ensures that high-volume fast responders — such as NYPD (noise, illegal parking) and the Department of Homeless Services (homeless outreach) — are included alongside slower agencies like Housing Preservation and Development and the Taxi and Limousine Commission.
 
 When a community district is selected on the map, the agency chart recalculates median resolution times using only complaints from that district. This shows which agencies are faster or slower in a specific neighborhood.
 
@@ -117,7 +117,7 @@ To prevent runaway queries, the client applies a hard upper bound of 500,000 rec
 
 ### Reporting rates vary by neighborhood
 
-311 data only captures complaints that are called in, submitted online, or reported via the 311 app. Issues that residents do not report are not reflected. Neighborhoods with lower 311 usage may appear to have fewer or faster-resolved problems than they actually do. Reporting rates vary by neighborhood, demographic group, and complaint type.
+311 data only captures complaints that are called in, submitted online or reported via the 311 app. Issues that residents do not report are not reflected. Neighborhoods with lower 311 usage may appear to have fewer or faster-resolved problems than they actually do. Reporting rates vary by neighborhood, demographic group and complaint type.
 
 ## Tools and libraries
 
