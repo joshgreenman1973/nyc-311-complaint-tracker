@@ -1,415 +1,411 @@
-# Neighborhood leads — week of 2026-10-31
+# Neighborhood leads — week of 2026-11-03
 
-Generated 2026-11-02T22:33:09Z. 97 leads from 3102 candidate places, 94 district anomalies and 7 new complaint descriptors. Coverage check: ok.
+Generated 2026-11-09T23:28:33Z. 97 leads from 3057 candidate places, 96 district anomalies and 7 new complaint descriptors. Coverage check: ok.
 
 Rank = signal x (1 - 0.75 x coverage). A strong signal nobody has written about outranks a stronger one already in the papers.
 
-## 1. Lower East Side / Chinatown accounted for 2,373 of 2,559 "Truck Route Violation" 311 reports filed between Sep 6 and Oct 31, 2026, about 6.5 times the volume-adjusted level for the same weeks of the prior two years.
+## 1. Lower East Side / Chinatown accounted for 2,545 of 2,736 truck route violation reports to 311 citywide between Sep 9 and Nov 3, 2026, about 7.4 times the volume-adjusted level for the same weeks of the prior two years.
 *novelty · Manhattan · Lower East Side / Chinatown · rank 1.0 (signal 1.0) · coverage: none found*
 
-When one district accounts for more than nine in ten reports of a newly common complaint type, the cause may be one persistent complainant or an organized reporting effort, so check how many locations and callers the reports cover before treating it as a trend. The first call is the Manhattan Community Board 3 district manager, then the local council office, to ask whether a construction project, detour or enforcement campaign is sending trucks onto local streets. (confidence: medium)
+With 93 percent of reports from one district, this could be one or a few persistent complainants, a new reporting app, or a change in how 311 categorizes truck complaints, so check before assuming a traffic shift. The first call is the Manhattan Community Board 3 district manager, then the local council office, to ask whether residents are organizing around a specific street, construction site or loading zone. (confidence: medium)
 
-- 2559 reports Sep 6–Oct 31, 2026 vs 391.5 in the same weeks of the prior two years (volume-adjusted) — 6.5x
-- top districts: Lower East Side / Chinatown (2373), Bayside / Douglaston / Little Neck (48), Greenpoint / Williamsburg (22), Tottenville / Great Kills (15)
+- 2736 reports Sep 9–Nov 3, 2026 vs 369.9 in the same weeks of the prior two years (volume-adjusted) — 7.4x
+- top districts: Lower East Side / Chinatown (2545), Bayside / Douglaston / Little Neck (49), Greenpoint / Williamsburg (23), Tottenville / Great Kills (15)
 
-## 2. Upper West Side residents filed 678 "Trunk Damaged" 311 reports and Astoria / Long Island City residents filed 415 between Sep 6 and Oct 31, 2026, out of 1,303 citywide, about 6.9 times the volume-adjusted level for the same weeks of the prior two years.
-*novelty · Manhattan · Upper West Side · rank 1.0 (signal 1.0) · coverage: none found*
+## 2. Astoria / Long Island City logged 414 of 777 trunk damage reports to 311 citywide between Sep 9 and Nov 3, 2026, with the Upper West Side next at 147, about 4.1 times the volume-adjusted level for the same weeks of the prior two years.
+*novelty · Queens · Astoria / Long Island City · rank 1.0 (signal 1.0) · coverage: none found*
 
-Two districts account for most of the reports, which could reflect a few dedicated callers, a block association's tree survey, or real damage from construction or vehicles, so check the addresses for clustering before anything else. The first calls are the Manhattan Community Board 7 and Queens Community Board 1 district managers, and the Parks Department's forestry office. (confidence: low)
+Concentration in two districts suggests either a tree-survey volunteer effort, a single persistent reporter, or real damage tied to construction or vehicles, and the category may be new enough that the baseline is unreliable. The first call is the Queens Community Board 1 district manager and the Parks Department forestry office to ask whether a specific project or group is behind the reports. (confidence: low)
 
-- 1303 reports Sep 6–Oct 31, 2026 vs 188.8 in the same weeks of the prior two years (volume-adjusted) — 6.9x
-- top districts: Upper West Side (678), Astoria / Long Island City (415), Bay Ridge / Dyker Heights (12), Highbridge / Concourse (11)
+- 777 reports Sep 9–Nov 3, 2026 vs 188.7 in the same weeks of the prior two years (volume-adjusted) — 4.1x
+- top districts: Astoria / Long Island City (414), Upper West Side (147), Highbridge / Concourse (12), Greenpoint / Williamsburg (11)
 
-## 3. 20 Richman Plaza in the Bronx received 91 311 calls and 72 HPD complaints between Oct 18 and Oct 31, 2026, after a partial fire-damage vacate order on Sep 23 and seven residential marshal evictions between Sep 2 and Oct 31.
+## 3. 30 Richman Plaza in Fordham / University Heights drew 78 calls to 311 between Oct 21 and Nov 3, 2026, after a partial fire-damage vacate order on Sep 23, with 7 residential marshal evictions between Sep 5 and Nov 3.
 *place · Bronx · Fordham / University Heights · rank 0.973 (signal 0.973) · coverage: none found*
 
-HPD issued 55 violations between Oct 2 and Oct 31, 11 of them class C, and the calls covered 17 complaint types, which suggests widespread problems rather than one complainant, though a large complex can produce high totals. The first call is the owner or managing agent listed in HPD registration, followed by the Bronx Community Board 5 district manager about tenant conditions since the fire. (confidence: medium)
+HPD issued 55 violations, 10 of them class C, between Oct 5 and Nov 3, and 64 HPD complaints came in between Oct 21 and Nov 3, spread across 16 complaint types, which makes a single complainant less likely. The first call is the owner listed in HPD registration about fire repairs and the evictions, then the Bronx Community Board 5 district manager. (confidence: high)
 
-- 91 311 calls Oct 18–31, 2026 (17 types over 14 days)
-- 55 HPD violations issued Oct 2–31, 2026 (11 class C)
-- 72 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6M)
-- 1 OATH/ECB violations Oct 2–31, 2026
+- 78 311 calls Oct 21–Nov 3, 2026 (16 types over 14 days)
+- 55 HPD violations issued Oct 5–Nov 3, 2026 (10 class C)
+- 64 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6M)
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
 - vacate order 2026-09-23 (Fire Damage, Partial, 1 units)
-- 7 marshal evictions Sep 2–Oct 31, 2026 (7 residential)
+- 7 marshal evictions Sep 5–Nov 3, 2026 (7 residential)
 
-## 4. HPD issued 63 violations at 1409 Wood Road in Parkchester between Oct 2 and Oct 31, 2026, 41 of them class C, and the address drew 89 311 calls between Oct 18 and Oct 31.
-*place · Bronx · Parkchester / Soundview · rank 0.904 (signal 0.904) · coverage: none found*
-
-The four DOB complaints between Oct 2 and Oct 31 concern a building shaking or vibrating and structural stability, which deserves a prompt check of DOB inspection records. The tax lot appears to be a condominium billing lot in the Parkchester complex, so the counts may combine several buildings; confirm that with HPD registration and the managing agent before reporting them as a single building's record. (confidence: medium)
-
-- 89 311 calls Oct 18–31, 2026 (14 types over 14 days)
-- 63 HPD violations issued Oct 2–31, 2026 (41 class C)
-- 40 HPD complaints Oct 18–31, 2026
-- 4 DOB complaints Oct 2–31, 2026 (Building shaking/vibrating/structural stability affected)
-- 6 marshal evictions Sep 2–Oct 31, 2026 (6 residential)
-
-## 5. 1430 Amsterdam Avenue in Hamilton Heights received 56 311 calls and 41 HPD complaints between Oct 18 and Oct 31, 2026, after a partial fire-damage vacate order on Sep 21.
+## 4. 1430 Amsterdam Avenue in Morningside Heights / Hamilton Heights received 45 calls to 311 between Oct 21 and Nov 3, 2026, following a partial fire-damage vacate order on Sep 21.
 *place · Manhattan · Morningside Heights / Hamilton Heights · rank 0.904 (signal 0.904) · coverage: none found*
 
-HPD issued 33 violations between Oct 2 and Oct 31, 10 of them class C, and the calls covered 17 complaint types, which points to broad conditions following the fire. This address appears to be part of a large public or subsidized complex, so first find the owner in HPD registration, which may be NYCHA, and then call the Manhattan Community Board 9 district manager. (confidence: medium)
+HPD issued 34 violations, 11 class C, between Oct 5 and Nov 3, and 3 DOB complaints were filed in the same period, suggesting conditions after the fire remain unresolved. The first call is the building owner via HPD registration about repairs and the displaced unit, followed by a check of DOB inspection records. (confidence: medium)
 
-- 56 311 calls Oct 18–31, 2026 (17 types over 11 days)
-- 33 HPD violations issued Oct 2–31, 2026 (10 class C)
-- 41 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (6V)
+- 45 311 calls Oct 21–Nov 3, 2026 (15 types over 11 days)
+- 34 HPD violations issued Oct 5–Nov 3, 2026 (11 class C)
+- 30 HPD complaints Oct 21–Nov 3, 2026
+- 3 DOB complaints Oct 5–Nov 3, 2026 (6V)
 - vacate order 2026-09-21 (Fire Damage, Partial, 1 units)
 
-## 6. HPD issued 160 violations at 16 Metropolitan Oval in Parkchester between Oct 2 and Oct 31, 2026, 63 of them class C, and the address drew 223 311 calls between Oct 18 and Oct 31 and 12 residential marshal evictions between Sep 2 and Oct 31.
+## 5. 16 Metropolitan Oval in Parkchester / Soundview drew 215 calls to 311 between Oct 21 and Nov 3, 2026, and HPD issued 175 violations, 66 of them class C, between Oct 5 and Nov 3.
 *place · Bronx · Parkchester / Soundview · rank 0.892 (signal 0.892) · coverage: none found*
 
-This is the largest set of numbers in the Parkchester group, but the tax lot appears to be a condominium billing lot that may combine many buildings, so confirm the scope before comparing it with single buildings. The first call is the managing agent listed in HPD registration; a call to the Bronx Community Board 9 district manager about conditions across Parkchester could support a single story covering all four Parkchester addresses. (confidence: medium)
+The building also had 12 residential marshal evictions between Sep 5 and Nov 3, and it is one of four Parkchester / Soundview addresses flagged this week, which may point to a common owner or management problem, though a large building will naturally generate more calls. The first call is the owner or managing agent listed in HPD registration, then the Bronx Community Board 9 district manager. (confidence: high)
 
-- 223 311 calls Oct 18–31, 2026 (17 types over 14 days)
-- 160 HPD violations issued Oct 2–31, 2026 (63 class C)
-- 131 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6S)
-- 6 OATH/ECB violations Oct 2–31, 2026
-- 12 marshal evictions Sep 2–Oct 31, 2026 (12 residential)
+- 215 311 calls Oct 21–Nov 3, 2026 (17 types over 14 days)
+- 175 HPD violations issued Oct 5–Nov 3, 2026 (66 class C)
+- 133 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 6 OATH/ECB violations Oct 5–Nov 3, 2026
+- 12 marshal evictions Sep 5–Nov 3, 2026 (12 residential)
 
-## 7. HPD issued 78 violations at 2505 Bedford Avenue in East Flatbush between Oct 2 and Oct 31, 2026, 36 of them class C, after a partial fire-damage vacate order on Sep 3.
+## 6. 3505 Foster Avenue in East Flatbush drew 85 calls to 311 between Oct 21 and Nov 3, 2026, about 7.5 times its pace over the prior 12 weeks.
 *place · Brooklyn · East Flatbush · rank 0.885 (signal 0.885) · coverage: none found*
 
-There were 50 HPD complaints and 43 311 calls between Oct 18 and Oct 31, which suggests conditions have not improved since the fire. The first call is the owner in HPD registration, followed by DOB inspection records for the two complaints filed between Oct 2 and Oct 31. (confidence: medium)
+HPD issued 42 violations, 17 class C, between Oct 5 and Nov 3, and DOB logged 2 unsafe material storage complaints in the same period, which may point to work underway in the building. The first call is the owner listed in HPD registration, then DOB inspection records to see whether a renovation or permit is involved. (confidence: high)
 
-- 43 311 calls Oct 18–31, 2026 (12 types over 9 days)
-- 78 HPD violations issued Oct 2–31, 2026 (36 class C)
-- 50 HPD complaints Oct 18–31, 2026
-- 2 DOB complaints Oct 2–31, 2026 (6S)
-- 1 OATH/ECB violations Oct 2–31, 2026
-- vacate order 2026-09-03 (Fire Damage, Partial, 1 units)
+- 311 calls 7.5x the building's pace over the prior 12 weeks
+- 85 311 calls Oct 21–Nov 3, 2026 (16 types over 13 days)
+- 42 HPD violations issued Oct 5–Nov 3, 2026 (17 class C)
+- 66 HPD complaints Oct 21–Nov 3, 2026
+- 2 DOB complaints Oct 5–Nov 3, 2026 (Material storage – unsafe)
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
 
-## 8. 988 Greene Avenue in Bedford-Stuyvesant received 39 311 calls between Oct 18 and Oct 31, 2026, about 3.6 times its pace over the prior 12 weeks, and drew three DOB complaints about a defective boiler between Oct 2 and Oct 31.
-*place · Brooklyn · Bedford-Stuyvesant · rank 0.858 (signal 0.858) · coverage: none found*
+## 7. 2701 Marion Avenue in Kingsbridge / Bedford Park received 3 DOB complaints about adjacent buildings not being protected between Oct 5 and Nov 3, 2026, alongside 19 HPD violations, 7 class C.
+*place · Bronx · Kingsbridge / Bedford Park · rank 0.885 (signal 0.885) · coverage: none found*
 
-Heat season has started and the complaints concern the boiler, so tenants may be without heat or hot water. The calls covered only eight types, so a few households could account for most of them; first call the owner in HPD registration and check whether DOB has inspected the boiler. (confidence: medium)
+The 21 calls to 311 between Oct 21 and Nov 3 came over only 6 days, which may reflect a single event or a small number of callers, but the DOB complaints suggest construction next door affecting tenants. The first call is DOB inspection records for the adjacent lot, then the owner via HPD registration. (confidence: medium)
 
-- 311 calls 3.6x the building's pace over the prior 12 weeks
-- 39 311 calls Oct 18–31, 2026 (8 types over 10 days)
-- 12 HPD violations issued Oct 2–31, 2026 (6 class C)
-- 34 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (Boiler – defective/inoperative/no permit)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 21 311 calls Oct 21–Nov 3, 2026 (11 types over 6 days)
+- 19 HPD violations issued Oct 5–Nov 3, 2026 (7 class C)
+- 20 HPD complaints Oct 21–Nov 3, 2026
+- 3 DOB complaints Oct 5–Nov 3, 2026 (Adjacent buildings not protected)
+- 5 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 9. 3505 Foster Avenue in East Flatbush received 48 311 calls between Oct 18 and Oct 31, 2026, about 4.6 times its pace over the prior 12 weeks, while HPD issued 42 violations between Oct 2 and Oct 31, 17 of them class C.
-*place · Brooklyn · East Flatbush · rank 0.838 (signal 0.838) · coverage: none found*
+## 8. 190 Wortman Avenue in East New York / Cypress Hills drew 27 calls to 311 between Oct 21 and Nov 3, 2026, about 3.1 times its pace over the prior 12 weeks, with 9 class C HPD violations issued between Oct 5 and Nov 3.
+*place · Brooklyn · East New York / Cypress Hills · rank 0.862 (signal 0.862) · coverage: none found*
 
-The calls were spread over 12 days and 12 complaint types, and HPD inspectors found violations, so the increase is not only in call volume. The first call is the owner in HPD registration, then the Brooklyn Community Board 17 district manager. (confidence: medium)
+The counts are modest and the calls fell on 9 days, so this could be a few active tenants rather than a building-wide problem. The first call is the owner via HPD registration and a check of the HPD violation descriptions to see what the class C items are. (confidence: low)
 
-- 311 calls 4.6x the building's pace over the prior 12 weeks
-- 48 311 calls Oct 18–31, 2026 (12 types over 12 days)
-- 42 HPD violations issued Oct 2–31, 2026 (17 class C)
-- 32 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6M)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 311 calls 3.1x the building's pace over the prior 12 weeks
+- 27 311 calls Oct 21–Nov 3, 2026 (9 types over 9 days)
+- 16 HPD violations issued Oct 5–Nov 3, 2026 (9 class C)
+- 16 HPD complaints Oct 21–Nov 3, 2026
+- 2 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 10. HPD issued 115 violations at 1490 East Avenue in Parkchester between Oct 2 and Oct 31, 2026, 52 of them class C, and the address drew 112 311 calls between Oct 18 and Oct 31.
-*place · Bronx · Parkchester / Soundview · rank 0.835 (signal 0.835) · coverage: none found*
+## 9. 1490 East Avenue in Parkchester / Soundview received 140 calls to 311 between Oct 21 and Nov 3, 2026, and HPD issued 114 violations, 51 class C, between Oct 5 and Nov 3.
+*place · Bronx · Parkchester / Soundview · rank 0.858 (signal 0.858) · coverage: none found*
 
-This is one of four Parkchester addresses in this batch with high counts, and the tax lot appears to be a condominium billing lot, so the numbers may combine several buildings. It is best reported together with the other Parkchester addresses after the managing agent is identified through HPD registration. (confidence: medium)
+Calls came every day of the period across 16 types, and the building is one of four Parkchester / Soundview addresses flagged together this week, which suggests a shared management issue worth checking, though building size may inflate the totals. The first call is the managing agent in HPD registration and the Bronx Community Board 9 district manager. (confidence: high)
 
-- 112 311 calls Oct 18–31, 2026 (15 types over 14 days)
-- 115 HPD violations issued Oct 2–31, 2026 (52 class C)
-- 71 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6S)
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 3 marshal evictions Sep 2–Oct 31, 2026 (3 residential)
+- 140 311 calls Oct 21–Nov 3, 2026 (16 types over 14 days)
+- 114 HPD violations issued Oct 5–Nov 3, 2026 (51 class C)
+- 80 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 2 OATH/ECB violations Oct 5–Nov 3, 2026
+- 3 marshal evictions Sep 5–Nov 3, 2026 (3 residential)
 
-## 11. 3475 Fish Avenue in Williamsbridge received 26 311 calls between Oct 18 and Oct 31, 2026, about 4.5 times its pace over the prior 12 weeks, and had five residential marshal evictions between Sep 2 and Oct 31.
+## 10. 1320 Hicks Street in Williamsbridge / Baychester drew 32 calls to 311 between Oct 21 and Nov 3, 2026, about 5.1 times its pace over the prior 12 weeks, and had 5 residential marshal evictions between Sep 5 and Nov 3.
 *place · Bronx · Williamsbridge / Baychester · rank 0.827 (signal 0.827) · coverage: none found*
 
-Thirteen of the 23 HPD violations issued between Oct 2 and Oct 31 were class C, and the evictions are notable for a building with moderate call volume. The first call is the owner in HPD registration to ask about the evictions and repairs; the numbers are small enough that a few tenants could account for most of the calls. (confidence: low)
+HPD issued 25 violations, 15 class C, between Oct 5 and Nov 3, and the combination of rising complaints and evictions may indicate a change in ownership or management. The first call is the owner via HPD registration, then the local council office. (confidence: medium)
 
-- 311 calls 4.5x the building's pace over the prior 12 weeks
-- 26 311 calls Oct 18–31, 2026 (10 types over 11 days)
-- 23 HPD violations issued Oct 2–31, 2026 (13 class C)
-- 11 HPD complaints Oct 18–31, 2026
-- 5 marshal evictions Sep 2–Oct 31, 2026 (5 residential)
+- 311 calls 5.1x the building's pace over the prior 12 weeks
+- 32 311 calls Oct 21–Nov 3, 2026 (10 types over 10 days)
+- 25 HPD violations issued Oct 5–Nov 3, 2026 (15 class C)
+- 19 HPD complaints Oct 21–Nov 3, 2026
+- 5 marshal evictions Sep 5–Nov 3, 2026 (5 residential)
 
-## 12. HPD issued 129 violations at 1936 East Tremont Avenue in Parkchester between Oct 2 and Oct 31, 2026, 74 of them class C, and the address drew 179 311 calls across 24 complaint types between Oct 18 and Oct 31.
+## 11. 35 Holland Avenue in St. George / Stapleton received 31 calls to 311 between Oct 21 and Nov 3, 2026, about 4.0 times its pace over the prior 12 weeks, and HPD issued 43 violations, 10 class C, between Oct 5 and Nov 3.
+*place · Staten Island · St. George / Stapleton · rank 0.823 (signal 0.823) · coverage: none found*
+
+The calls fell on only 7 days across 6 types, so a single complainant or one incident is possible, but the violation count suggests inspectors found real conditions. The first call is the owner via HPD registration, then the Staten Island Community Board 1 district manager. (confidence: medium)
+
+- 311 calls 4.0x the building's pace over the prior 12 weeks
+- 31 311 calls Oct 21–Nov 3, 2026 (6 types over 7 days)
+- 43 HPD violations issued Oct 5–Nov 3, 2026 (10 class C)
+- 16 HPD complaints Oct 21–Nov 3, 2026
+- 3 marshal evictions Sep 5–Nov 3, 2026 (3 residential)
+
+## 12. 1936 East Tremont Avenue in Parkchester / Soundview drew 162 calls to 311 between Oct 21 and Nov 3, 2026, and HPD issued 134 violations, 78 of them class C, between Oct 5 and Nov 3.
 *place · Bronx · Parkchester / Soundview · rank 0.815 (signal 0.815) · coverage: none found*
 
-This address had the most class C violations in the batch and eight residential marshal evictions between Sep 2 and Oct 31. Like the other Parkchester addresses, the tax lot appears to be a condominium billing lot that may combine several buildings, so confirm the scope with HPD registration and the managing agent. (confidence: medium)
+The calls span 23 types on every day of the period, and there were 8 residential marshal evictions between Sep 5 and Nov 3; this is one of four Parkchester / Soundview addresses flagged together this week. The first call is the managing agent in HPD registration, then the Bronx Community Board 9 district manager. (confidence: high)
 
-- 179 311 calls Oct 18–31, 2026 (24 types over 14 days)
-- 129 HPD violations issued Oct 2–31, 2026 (74 class C)
-- 89 HPD complaints Oct 18–31, 2026
-- 2 OATH/ECB violations Oct 2–31, 2026
-- 8 marshal evictions Sep 2–Oct 31, 2026 (8 residential)
+- 162 311 calls Oct 21–Nov 3, 2026 (23 types over 14 days)
+- 134 HPD violations issued Oct 5–Nov 3, 2026 (78 class C)
+- 62 HPD complaints Oct 21–Nov 3, 2026
+- 2 OATH/ECB violations Oct 5–Nov 3, 2026
+- 8 marshal evictions Sep 5–Nov 3, 2026 (8 residential)
 
-## 13. HPD issued 45 violations at 1131 Ogden Avenue in Highbridge between Oct 2 and Oct 31, 2026, 19 of them class C, and 311 calls between Oct 18 and Oct 31 were about three times the building's pace over the prior 12 weeks.
-*place · Bronx · Highbridge / Concourse · rank 0.815 (signal 0.815) · coverage: none found*
-
-The building has more violations than complaints, which suggests inspectors are finding conditions beyond what tenants reported. The first call is the owner in HPD registration, then the Bronx Community Board 4 district manager. (confidence: low)
-
-- 311 calls 3.0x the building's pace over the prior 12 weeks
-- 22 311 calls Oct 18–31, 2026 (8 types over 10 days)
-- 45 HPD violations issued Oct 2–31, 2026 (19 class C)
-- 11 HPD complaints Oct 18–31, 2026
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
-
-## 14. 2701 Marion Avenue in Bedford Park drew three DOB complaints between Oct 2 and Oct 31, 2026, that adjacent buildings were not protected, along with five OATH/ECB violations over the same period.
-*place · Bronx · Kingsbridge / Bedford Park · rank 0.808 (signal 0.808) · coverage: none found*
-
-The complaints suggest construction next door may be affecting the building, which would make DOB permit and inspection records the first thing to check. The 12 311 calls between Oct 18 and Oct 31 fell within five days, so they could come from a single event or caller. (confidence: low)
-
-- 12 311 calls Oct 18–31, 2026 (10 types over 5 days)
-- 19 HPD violations issued Oct 2–31, 2026 (7 class C)
-- 11 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (Adjacent buildings not protected)
-- 5 OATH/ECB violations Oct 2–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
-
-## 15. 2174 Crotona Avenue in Belmont received a partial fire-damage vacate order covering three units on Oct 29, 2026, and HPD issued 25 violations between Oct 2 and Oct 31, 23 of them class C.
+## 13. 2174 Crotona Avenue in Belmont / East Tremont received a partial fire-damage vacate order covering 3 units on Oct 29, 2026, and HPD issued 39 violations, 27 class C, between Oct 5 and Nov 3.
 *place · Bronx · Belmont / East Tremont · rank 0.808 (signal 0.808) · coverage: none found*
 
-The vacate order is recent, and DOB complaints between Oct 2 and Oct 31 about a bulging or cracked wall raise structural questions. Call FDNY and the Red Cross about displaced tenants, and the owner listed in HPD registration. The 311 counts are small, eight calls between Oct 18 and Oct 31. (confidence: medium)
+DOB logged 3 complaints about a bulging or cracked wall between Oct 5 and Nov 3, raising structural questions, though only 8 calls to 311 came in between Oct 21 and Nov 3. The first call is DOB inspection records on the wall, then the owner via HPD registration about displaced tenants. (confidence: high)
 
 - 311 calls 8.0x the building's pace over the prior 12 weeks
-- 8 311 calls Oct 18–31, 2026 (6 types over 3 days)
-- 25 HPD violations issued Oct 2–31, 2026 (23 class C)
-- 6 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (Wall/retaining wall – bulging/cracked)
+- 8 311 calls Oct 21–Nov 3, 2026 (6 types over 3 days)
+- 39 HPD violations issued Oct 5–Nov 3, 2026 (27 class C)
+- 6 HPD complaints Oct 21–Nov 3, 2026
+- 3 DOB complaints Oct 5–Nov 3, 2026 (Wall/retaining wall – bulging/cracked)
 - vacate order 2026-10-29 (Fire Damage, Partial, 3 units)
 
-## 16. HPD issued 60 violations at 109-15 Merrick Boulevard in Jamaica between Oct 2 and Oct 31, 2026, 32 of them class C, and DOB received two complaints about a defective boiler over the same period.
+## 14. 988 Greene Avenue in Bedford-Stuyvesant drew 3 DOB complaints about a defective or unpermitted boiler between Oct 5 and Nov 3, 2026, along with 31 calls to 311 between Oct 21 and Nov 3.
+*place · Brooklyn · Bedford-Stuyvesant · rank 0.8 (signal 0.8) · coverage: none found*
+
+With heat season under way, a boiler problem is timely, though the numbers are modest and could reflect a few tenants calling repeatedly. The first call is DOB inspection records on the boiler, then the owner via HPD registration. (confidence: medium)
+
+- 31 311 calls Oct 21–Nov 3, 2026 (10 types over 9 days)
+- 12 HPD violations issued Oct 5–Nov 3, 2026 (6 class C)
+- 20 HPD complaints Oct 21–Nov 3, 2026
+- 3 DOB complaints Oct 5–Nov 3, 2026 (Boiler – defective/inoperative/no permit)
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
+
+## 15. 109-15 Merrick Boulevard in Jamaica / Hollis / St. Albans had 60 HPD violations, 32 of them class C, issued between Oct 5 and Nov 3, 2026, and 2 DOB complaints about building shaking or structural stability in the same period.
 *place · Queens · Jamaica / Hollis / St. Albans · rank 0.796 (signal 0.796) · coverage: none found*
 
-With heat season under way, the boiler complaints and 37 HPD complaints between Oct 18 and Oct 31 may point to heat or hot-water outages. The first call is the owner in HPD registration, along with a check of DOB boiler inspection records. (confidence: medium)
+The structural complaints warrant a quick check even though 311 activity, 35 calls between Oct 21 and Nov 3, is moderate. The first call is DOB inspection records for any nearby work, then the owner via HPD registration. (confidence: medium)
 
-- 38 311 calls Oct 18–31, 2026 (11 types over 9 days)
-- 60 HPD violations issued Oct 2–31, 2026 (32 class C)
-- 37 HPD complaints Oct 18–31, 2026
-- 2 DOB complaints Oct 2–31, 2026 (Boiler – defective/inoperative/no permit)
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
+- 35 311 calls Oct 21–Nov 3, 2026 (10 types over 8 days)
+- 60 HPD violations issued Oct 5–Nov 3, 2026 (32 class C)
+- 36 HPD complaints Oct 21–Nov 3, 2026
+- 2 DOB complaints Oct 5–Nov 3, 2026 (Building shaking/vibrating/structural stability affected)
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 17. 1530 Sheridan Avenue in the Concourse area received 25 311 calls between Oct 18 and Oct 31, 2026, about 5.6 times its pace over the prior 12 weeks.
-*place · Bronx · Highbridge / Concourse · rank 0.792 (signal 0.792) · coverage: none found*
-
-HPD issued 17 violations between Oct 2 and Oct 31, five of them class C, so the increase in calls is larger than what inspectors have found so far, and one or two persistent complainants could account for it. A quick call to the owner in HPD registration and the Bronx Community Board 4 district manager would show whether there is more to it. (confidence: low)
-
-- 311 calls 5.6x the building's pace over the prior 12 weeks
-- 25 311 calls Oct 18–31, 2026 (7 types over 10 days)
-- 17 HPD violations issued Oct 2–31, 2026 (5 class C)
-- 19 HPD complaints Oct 18–31, 2026
-- 2 DOB complaints Oct 2–31, 2026 (6S)
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
-
-## 18. 2588 Seventh Avenue in Central Harlem received 64 311 calls and 60 HPD complaints between Oct 18 and Oct 31, 2026, while HPD issued 30 violations between Oct 2 and Oct 31, nine of them class C.
+## 16. 2588 7 Avenue in Central Harlem drew 72 calls to 311 between Oct 21 and Nov 3, 2026, and 65 HPD complaints in the same period.
 *place · Manhattan · Central Harlem · rank 0.781 (signal 0.781) · coverage: none found*
 
-Complaints arrived on all 14 days between Oct 18 and Oct 31, which could reflect building-wide problems or a single repeated issue such as heat. This appears to be a large complex, so first identify the owner or managing agent in HPD registration, then call the Manhattan Community Board 10 district manager. (confidence: low)
+Calls came every day across 14 types, and HPD issued 35 violations, 13 class C, between Oct 5 and Nov 3, though without a prior baseline it is unclear whether this is new. The first call is the owner via HPD registration and the Manhattan Community Board 10 district manager. (confidence: medium)
 
-- 64 311 calls Oct 18–31, 2026 (13 types over 14 days)
-- 30 HPD violations issued Oct 2–31, 2026 (9 class C)
-- 60 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (7J)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 72 311 calls Oct 21–Nov 3, 2026 (14 types over 14 days)
+- 35 HPD violations issued Oct 5–Nov 3, 2026 (13 class C)
+- 65 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (7J)
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
 
-## 19. HPD issued 37 violations at 60 East 93 Street in East Flatbush between Oct 2 and Oct 31, 2026, 18 of them class C, and the building had four residential marshal evictions between Sep 2 and Oct 31.
-*place · Brooklyn · East Flatbush · rank 0.781 (signal 0.781) · coverage: none found*
+## 17. 60 East 93 Street in East Flatbush had 35 HPD violations, 17 class C, issued between Oct 5 and Nov 3, 2026, and 3 residential marshal evictions between Sep 5 and Nov 3.
+*place · Brooklyn · East Flatbush · rank 0.777 (signal 0.777) · coverage: none found*
 
-Call volume is modest, 15 311 calls between Oct 18 and Oct 31, but the combination of serious violations and evictions is worth a check with the owner in HPD registration. Housing Court records may show whether the evictions were for nonpayment. (confidence: low)
+311 activity is low, 15 calls between Oct 21 and Nov 3, so this may be a routine inspection cycle rather than a new problem. The first call is the owner via HPD registration and a review of the violation descriptions. (confidence: low)
 
-- 15 311 calls Oct 18–31, 2026 (7 types over 7 days)
-- 37 HPD violations issued Oct 2–31, 2026 (18 class C)
-- 9 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6M)
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 4 marshal evictions Sep 2–Oct 31, 2026 (4 residential)
+- 15 311 calls Oct 21–Nov 3, 2026 (7 types over 7 days)
+- 35 HPD violations issued Oct 5–Nov 3, 2026 (17 class C)
+- 9 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6M)
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
+- 3 marshal evictions Sep 5–Nov 3, 2026 (3 residential)
 
-## 20. 2171 Madison Avenue in East Harlem received 20 311 calls between Oct 18 and Oct 31, 2026, about 3.4 times its pace over the prior 12 weeks, and HPD issued 26 violations between Oct 2 and Oct 31, eight of them class C.
-*place · Manhattan · East Harlem · rank 0.773 (signal 0.773) · coverage: none found*
+## 18. 1409 Metropolitan Avenue in Parkchester / Soundview drew 88 calls to 311 between Oct 21 and Nov 3, 2026, and HPD issued 64 violations, 42 class C, between Oct 5 and Nov 3.
+*place · Bronx · Parkchester / Soundview · rank 0.769 (signal 0.769) · coverage: none found*
 
-The counts are modest and the calls fell within seven days, so a single outage or a single complainant could explain them. This address may be part of a public housing development, so check HPD registration for the owner before calling the Manhattan Community Board 11 district manager. (confidence: low)
+The building had 6 residential marshal evictions between Sep 5 and Nov 3 and is one of four Parkchester / Soundview addresses flagged together this week, which is the more likely story than this building alone. The first call is the managing agent in HPD registration and the Bronx Community Board 9 district manager. (confidence: medium)
 
-- 311 calls 3.4x the building's pace over the prior 12 weeks
-- 20 311 calls Oct 18–31, 2026 (8 types over 7 days)
-- 26 HPD violations issued Oct 2–31, 2026 (8 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
+- 88 311 calls Oct 21–Nov 3, 2026 (13 types over 14 days)
+- 64 HPD violations issued Oct 5–Nov 3, 2026 (42 class C)
+- 44 HPD complaints Oct 21–Nov 3, 2026
+- 6 marshal evictions Sep 5–Nov 3, 2026 (6 residential)
 
-## 21. 620 Baychester Avenue: 57 311 calls in two weeks; 15 class C violations; 14 evictions
+## 19. 140 De Kruif Place in Throgs Neck / Co-op City had 13 residential marshal evictions between Sep 5 and Nov 3, 2026, alongside 56 calls to 311 between Oct 21 and Nov 3.
 *place · Bronx · Throgs Neck / Co-op City · rank 0.769 (signal 0.769) · coverage: none found*
 
-- 57 311 calls Oct 18–31, 2026 (21 types over 12 days)
-- 30 HPD violations issued Oct 2–31, 2026 (15 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 14 marshal evictions Sep 2–Oct 31, 2026 (14 residential)
+The eviction count is the highest in this batch, though a large complex may account for it; HPD issued 38 violations, 18 class C, between Oct 5 and Nov 3. The first call is the owner or managing agent via HPD registration, then the Bronx Community Board 10 district manager. (confidence: medium)
 
-## 22. 2265 Olinville Avenue: 52 311 calls in two weeks; 91 class C violations; 5 DOB complaints
+- 56 311 calls Oct 21–Nov 3, 2026 (23 types over 12 days)
+- 38 HPD violations issued Oct 5–Nov 3, 2026 (18 class C)
+- 20 HPD complaints Oct 21–Nov 3, 2026
+- 13 marshal evictions Sep 5–Nov 3, 2026 (13 residential)
+
+## 20. 2265 Olinville Avenue in Morris Park / Pelham Parkway had 184 HPD violations, 94 of them class C, issued between Oct 5 and Nov 3, 2026, along with 7 DOB complaints in the same period.
 *place · Bronx · Morris Park / Pelham Parkway · rank 0.769 (signal 0.769) · coverage: none found*
 
-- 52 311 calls Oct 18–31, 2026 (12 types over 10 days)
-- 180 HPD violations issued Oct 2–31, 2026 (91 class C)
-- 59 HPD complaints Oct 18–31, 2026
-- 5 DOB complaints Oct 2–31, 2026 (7J)
-- 4 OATH/ECB violations Oct 2–31, 2026
+The violation count far exceeds 311 activity, 44 calls between Oct 21 and Nov 3, which could mean a single large HPD inspection sweep rather than a new deterioration. The first call is the owner via HPD registration and DOB inspection records to see what the complaints concern. (confidence: medium)
 
-## 23. 57-07 Shore Front Parkway: 44 311 calls in two weeks; 32 class C violations; 12 evictions
+- 44 311 calls Oct 21–Nov 3, 2026 (14 types over 8 days)
+- 184 HPD violations issued Oct 5–Nov 3, 2026 (94 class C)
+- 48 HPD complaints Oct 21–Nov 3, 2026
+- 7 DOB complaints Oct 5–Nov 3, 2026 (7J)
+- 5 OATH/ECB violations Oct 5–Nov 3, 2026
+
+## 21. 146 Beach 59 Street: 36 311 calls in two weeks; 36 class C violations; 12 evictions
 *place · Queens · Far Rockaway / Rockaways · rank 0.769 (signal 0.769) · coverage: none found*
 
-- 44 311 calls Oct 18–31, 2026 (14 types over 12 days)
-- 98 HPD violations issued Oct 2–31, 2026 (32 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 12 marshal evictions Sep 2–Oct 31, 2026 (12 residential)
+- 36 311 calls Oct 21–Nov 3, 2026 (12 types over 12 days)
+- 105 HPD violations issued Oct 5–Nov 3, 2026 (36 class C)
+- 13 HPD complaints Oct 21–Nov 3, 2026
+- 12 marshal evictions Sep 5–Nov 3, 2026 (12 residential)
 
-## 24. 1354 New York Avenue: 39 311 calls in two weeks; 32 class C violations; 5 evictions
-*place · Brooklyn · East Flatbush · rank 0.769 (signal 0.769) · coverage: none found*
+## 22. 303 East 158 Street: 35 311 calls in two weeks; 8 class C violations
+*place · Bronx · Mott Haven / Melrose · rank 0.762 (signal 0.762) · coverage: none found*
 
-- 39 311 calls Oct 18–31, 2026 (9 types over 9 days)
-- 41 HPD violations issued Oct 2–31, 2026 (32 class C)
-- 10 HPD complaints Oct 18–31, 2026
-- 5 marshal evictions Sep 2–Oct 31, 2026 (5 residential)
+- 35 311 calls Oct 21–Nov 3, 2026 (12 types over 9 days)
+- 39 HPD violations issued Oct 5–Nov 3, 2026 (8 class C)
+- 28 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 25. 2182 Barnes Avenue: 21 311 calls in two weeks; 34 class C violations; 6 DOB complaints
-*place · Bronx · Morris Park / Pelham Parkway · rank 0.769 (signal 0.769) · coverage: none found*
-
-- 21 311 calls Oct 18–31, 2026 (6 types over 6 days)
-- 93 HPD violations issued Oct 2–31, 2026 (34 class C)
-- 23 HPD complaints Oct 18–31, 2026
-- 6 DOB complaints Oct 2–31, 2026 (5H)
-- 7 OATH/ECB violations Oct 2–31, 2026
-
-## 26. 769 St Marks Avenue: 20 311 calls in two weeks; 4 class C violations; 2 evictions
-*place · Brooklyn · Crown Heights / Prospect Heights · rank 0.765 (signal 0.765) · coverage: none found*
-
-- 311 calls 3.8x the building's pace over the prior 12 weeks
-- 20 311 calls Oct 18–31, 2026 (8 types over 8 days)
-- 6 HPD violations issued Oct 2–31, 2026 (4 class C)
-- 16 HPD complaints Oct 18–31, 2026
-- 2 DOB complaints Oct 2–31, 2026 (Boiler – defective/inoperative/no permit)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
-
-## 27. 330 East 100 Street: 20 311 calls in two weeks; 5 class C violations
-*place · Manhattan · East Harlem · rank 0.765 (signal 0.765) · coverage: none found*
-
-- 311 calls 7.4x the building's pace over the prior 12 weeks
-- 20 311 calls Oct 18–31, 2026 (6 types over 9 days)
-- 16 HPD violations issued Oct 2–31, 2026 (5 class C)
-- 19 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (Illegal conversion)
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
-
-## 28. 165 Rockaway Parkway: 24 311 calls in two weeks; 10 class C violations
+## 23. 165 Rockaway Parkway: 28 311 calls in two weeks; 10 class C violations
 *place · Brooklyn · East Flatbush · rank 0.762 (signal 0.762) · coverage: none found*
 
-- 311 calls 6.9x the building's pace over the prior 12 weeks
-- 24 311 calls Oct 18–31, 2026 (6 types over 9 days)
-- 24 HPD violations issued Oct 2–31, 2026 (10 class C)
-- 23 HPD complaints Oct 18–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
+- 311 calls 7.4x the building's pace over the prior 12 weeks
+- 28 311 calls Oct 21–Nov 3, 2026 (9 types over 8 days)
+- 24 HPD violations issued Oct 5–Nov 3, 2026 (10 class C)
+- 25 HPD complaints Oct 21–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 29. 552 Flatbush Avenue: 26 311 calls in two weeks; 8 class C violations
-*place · Brooklyn · Flatbush / PLG · rank 0.75 (signal 0.75) · coverage: none found*
+## 24. 2929 West 31 Street: 19 311 calls in two weeks; 5 class C violations
+*place · Brooklyn · Coney Island / Brighton Beach · rank 0.758 (signal 0.758) · coverage: none found*
+
+- 19 311 calls Oct 21–Nov 3, 2026 (11 types over 6 days)
+- 25 HPD violations issued Oct 5–Nov 3, 2026 (5 class C)
+- 17 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (Sidewalk shed/supported scaffold/inadequate defective/none)
+- 3 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
+
+## 25. 1530 Sheridan Avenue: 24 311 calls in two weeks; 5 class C violations
+*place · Bronx · Highbridge / Concourse · rank 0.754 (signal 0.754) · coverage: none found*
+
+- 311 calls 4.6x the building's pace over the prior 12 weeks
+- 24 311 calls Oct 21–Nov 3, 2026 (7 types over 11 days)
+- 19 HPD violations issued Oct 5–Nov 3, 2026 (5 class C)
+- 18 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
+
+## 26. 1187 East 214 Street: 19 311 calls in two weeks; 13 class C violations
+*place · Bronx · Williamsbridge / Baychester · rank 0.754 (signal 0.754) · coverage: none found*
+
+- 311 calls 5.1x the building's pace over the prior 12 weeks
+- 19 311 calls Oct 21–Nov 3, 2026 (9 types over 4 days)
+- 25 HPD violations issued Oct 5–Nov 3, 2026 (13 class C)
+- 10 HPD complaints Oct 21–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
+
+## 27. 2171 Madison Avenue: 18 311 calls in two weeks; 8 class C violations
+*place · Manhattan · East Harlem · rank 0.754 (signal 0.754) · coverage: none found*
 
 - 311 calls 3.0x the building's pace over the prior 12 weeks
-- 26 311 calls Oct 18–31, 2026 (7 types over 11 days)
-- 20 HPD violations issued Oct 2–31, 2026 (8 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
+- 18 311 calls Oct 21–Nov 3, 2026 (7 types over 5 days)
+- 28 HPD violations issued Oct 5–Nov 3, 2026 (8 class C)
+- 17 HPD complaints Oct 21–Nov 3, 2026
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 30. 143-36 229 Street: 17 311 calls in two weeks; 2 evictions; 3 DOB complaints
-*place · Queens · Queens Village / Cambria Heights · rank 0.75 (signal 0.75) · coverage: none found*
+## 28. 920 Thieriot Avenue: 18 311 calls in two weeks; 8 class C violations; 2 evictions
+*place · Bronx · Parkchester / Soundview · rank 0.75 (signal 0.75) · coverage: none found*
 
-- 311 calls 6.3x the building's pace over the prior 12 weeks
-- 17 311 calls Oct 18–31, 2026 (10 types over 6 days)
-- 8 HPD violations issued Oct 2–31, 2026 (1 class C)
-- 10 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (Permit – none (building/PA/demo))
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 18 311 calls Oct 21–Nov 3, 2026 (4 types over 6 days)
+- 35 HPD violations issued Oct 5–Nov 3, 2026 (8 class C)
+- 18 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (Failure to maintain)
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
 
-## 31. 601 East 18 Street: vacate order; 16 class C violations; 3 DOB complaints
+## 29. 601 East 18 Street: vacate order; 16 class C violations; 3 DOB complaints
 *place · Brooklyn · Midwood / Ocean Parkway · rank 0.75 (signal 0.75) · coverage: none found*
 
-- 7 311 calls Oct 18–31, 2026 (6 types over 2 days)
-- 49 HPD violations issued Oct 2–31, 2026 (16 class C)
-- 7 HPD complaints Oct 18–31, 2026
-- 3 DOB complaints Oct 2–31, 2026 (Building shaking/vibrating/structural stability affected)
+- 7 311 calls Oct 21–Nov 3, 2026 (6 types over 2 days)
+- 49 HPD violations issued Oct 5–Nov 3, 2026 (16 class C)
+- 7 HPD complaints Oct 21–Nov 3, 2026
+- 3 DOB complaints Oct 5–Nov 3, 2026 (Building shaking/vibrating/structural stability affected)
 - vacate order 2026-10-23 (Fire Damage, Partial, 2 units)
 
-## 32. 1951 Park Avenue: 40 311 calls in two weeks; 2 evictions
-*place · Manhattan · East Harlem · rank 0.742 (signal 0.742) · coverage: none found*
+## 30. 330 East 100 Street: 18 311 calls in two weeks; 5 class C violations
+*place · Manhattan · East Harlem · rank 0.746 (signal 0.746) · coverage: none found*
 
-- 311 calls 7.0x the building's pace over the prior 12 weeks
-- 40 311 calls Oct 18–31, 2026 (11 types over 14 days)
-- 18 HPD violations issued Oct 2–31, 2026 (2 class C)
-- 38 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6S)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 311 calls 5.6x the building's pace over the prior 12 weeks
+- 18 311 calls Oct 21–Nov 3, 2026 (6 types over 8 days)
+- 16 HPD violations issued Oct 5–Nov 3, 2026 (5 class C)
+- 18 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (Illegal conversion)
+- 1 OATH/ECB violations Oct 5–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 33. 134-25 166 Place: 25 311 calls in two weeks; 7 class C violations; 4 evictions
+## 31. 134-25 166 Place: 37 311 calls in two weeks; 7 class C violations; 4 evictions
 *place · Queens · Jamaica / Hollis / St. Albans · rank 0.742 (signal 0.742) · coverage: none found*
 
-- 25 311 calls Oct 18–31, 2026 (8 types over 7 days)
-- 28 HPD violations issued Oct 2–31, 2026 (7 class C)
-- 19 HPD complaints Oct 18–31, 2026
-- 4 marshal evictions Sep 2–Oct 31, 2026 (4 residential)
+- 37 311 calls Oct 21–Nov 3, 2026 (11 types over 9 days)
+- 28 HPD violations issued Oct 5–Nov 3, 2026 (7 class C)
+- 26 HPD complaints Oct 21–Nov 3, 2026
+- 4 marshal evictions Sep 5–Nov 3, 2026 (4 residential)
 
-## 34. 441 Brooklyn Avenue: 27 311 calls in two weeks; 10 class C violations; 7 DOB complaints
+## 32. 1951 Park Avenue: 37 311 calls in two weeks; 2 evictions
+*place · Manhattan · East Harlem · rank 0.742 (signal 0.742) · coverage: none found*
+
+- 311 calls 5.5x the building's pace over the prior 12 weeks
+- 37 311 calls Oct 21–Nov 3, 2026 (11 types over 13 days)
+- 18 HPD violations issued Oct 5–Nov 3, 2026 (2 class C)
+- 35 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
+
+## 33. 441 Brooklyn Avenue: 34 311 calls in two weeks; 9 class C violations; 7 DOB complaints
 *place · Brooklyn · Flatbush / PLG · rank 0.738 (signal 0.738) · coverage: none found*
 
-- 27 311 calls Oct 18–31, 2026 (10 types over 8 days)
-- 43 HPD violations issued Oct 2–31, 2026 (10 class C)
-- 23 HPD complaints Oct 18–31, 2026
-- 7 DOB complaints Oct 2–31, 2026 (Egress – locked/blocked/improper/no secondary means)
-- 2 OATH/ECB violations Oct 2–31, 2026
+- 34 311 calls Oct 21–Nov 3, 2026 (11 types over 7 days)
+- 28 HPD violations issued Oct 5–Nov 3, 2026 (9 class C)
+- 30 HPD complaints Oct 21–Nov 3, 2026
+- 7 DOB complaints Oct 5–Nov 3, 2026 (Illegal conversion)
+- 2 OATH/ECB violations Oct 5–Nov 3, 2026
 
-## 35. 4511 3 Avenue: 22 311 calls in two weeks; 8 class C violations
-*place · Bronx · Belmont / East Tremont · rank 0.738 (signal 0.738) · coverage: none found*
+## 34. 707 East 242 Street: 25 311 calls in two weeks; 7 class C violations; 2 evictions
+*place · Bronx · Williamsbridge / Baychester · rank 0.738 (signal 0.738) · coverage: none found*
 
-- 22 311 calls Oct 18–31, 2026 (13 types over 8 days)
-- 28 HPD violations issued Oct 2–31, 2026 (8 class C)
-- 24 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (6S)
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
+- 311 calls 6.2x the building's pace over the prior 12 weeks
+- 25 311 calls Oct 21–Nov 3, 2026 (2 types over 12 days)
+- 13 HPD violations issued Oct 5–Nov 3, 2026 (7 class C)
+- 23 HPD complaints Oct 21–Nov 3, 2026
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
 
-## 36. 2970 West 27 Street: 33 311 calls in two weeks; 20 class C violations; 2 evictions
+## 35. 2838 Bronx Park East: 33 311 calls in two weeks; 41 class C violations; 2 evictions
+*place · Bronx · Morris Park / Pelham Parkway · rank 0.735 (signal 0.735) · coverage: none found*
+
+- 33 311 calls Oct 21–Nov 3, 2026 (12 types over 10 days)
+- 151 HPD violations issued Oct 5–Nov 3, 2026 (41 class C)
+- 12 HPD complaints Oct 21–Nov 3, 2026
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
+
+## 36. 2980 West 28 Street: 32 311 calls in two weeks; 23 class C violations; 2 evictions
 *place · Brooklyn · Coney Island / Brighton Beach · rank 0.735 (signal 0.735) · coverage: none found*
 
-- 33 311 calls Oct 18–31, 2026 (12 types over 7 days)
-- 45 HPD violations issued Oct 2–31, 2026 (20 class C)
-- 29 HPD complaints Oct 18–31, 2026
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 32 311 calls Oct 21–Nov 3, 2026 (12 types over 8 days)
+- 55 HPD violations issued Oct 5–Nov 3, 2026 (23 class C)
+- 29 HPD complaints Oct 21–Nov 3, 2026
+- 2 marshal evictions Sep 5–Nov 3, 2026 (2 residential)
 
-## 37. 920 Thieriot Avenue: 16 311 calls in two weeks; 8 class C violations; 2 evictions
-*place · Bronx · Parkchester / Soundview · rank 0.731 (signal 0.731) · coverage: none found*
+## 37. 2874 Grand Concourse: 17 311 calls in two weeks; 16 class C violations
+*place · Bronx · Kingsbridge / Bedford Park · rank 0.735 (signal 0.735) · coverage: none found*
 
-- 16 311 calls Oct 18–31, 2026 (3 types over 6 days)
-- 34 HPD violations issued Oct 2–31, 2026 (8 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (Failure to maintain)
-- 2 marshal evictions Sep 2–Oct 31, 2026 (2 residential)
+- 311 calls 6.8x the building's pace over the prior 12 weeks
+- 17 311 calls Oct 21–Nov 3, 2026 (1 types over 9 days)
+- 43 HPD violations issued Oct 5–Nov 3, 2026 (16 class C)
+- 17 HPD complaints Oct 21–Nov 3, 2026
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
 
-## 38. 185 St Marks Place: 33 311 calls in two weeks; 5 class C violations
+## 38. 2182 Barnes Avenue: 16 311 calls in two weeks; 64 class C violations; 6 DOB complaints
+*place · Bronx · Morris Park / Pelham Parkway · rank 0.731 (signal 0.731) · coverage: none found*
+
+- 16 311 calls Oct 21–Nov 3, 2026 (6 types over 4 days)
+- 179 HPD violations issued Oct 5–Nov 3, 2026 (64 class C)
+- 19 HPD complaints Oct 21–Nov 3, 2026
+- 6 DOB complaints Oct 5–Nov 3, 2026 (5H)
+- 7 OATH/ECB violations Oct 5–Nov 3, 2026
+
+## 39. 185 St Marks Place: 34 311 calls in two weeks; 5 class C violations
 *place · Staten Island · St. George / Stapleton · rank 0.727 (signal 0.727) · coverage: none found*
 
-- 311 calls 4.9x the building's pace over the prior 12 weeks
-- 33 311 calls Oct 18–31, 2026 (16 types over 8 days)
-- 35 HPD violations issued Oct 2–31, 2026 (5 class C)
-- 197 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (Boiler – defective/inoperative/no permit)
-- 1 marshal evictions Sep 2–Oct 31, 2026 (0 residential)
+- 311 calls 5.2x the building's pace over the prior 12 weeks
+- 34 311 calls Oct 21–Nov 3, 2026 (18 types over 9 days)
+- 35 HPD violations issued Oct 5–Nov 3, 2026 (5 class C)
+- 196 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (Boiler – defective/inoperative/no permit)
+- 1 marshal evictions Sep 5–Nov 3, 2026 (0 residential)
 
-## 39. 2929 West 31 Street: 18 311 calls in two weeks; 5 class C violations
-*place · Brooklyn · Coney Island / Brighton Beach · rank 0.727 (signal 0.727) · coverage: none found*
+## 40. 4511 3 Avenue: 19 311 calls in two weeks; 8 class C violations
+*place · Bronx · Belmont / East Tremont · rank 0.727 (signal 0.727) · coverage: none found*
 
-- 18 311 calls Oct 18–31, 2026 (10 types over 6 days)
-- 25 HPD violations issued Oct 2–31, 2026 (5 class C)
-- 16 HPD complaints Oct 18–31, 2026
-- 1 DOB complaints Oct 2–31, 2026 (Sidewalk shed/supported scaffold/inadequate defective/none)
-- 2 OATH/ECB violations Oct 2–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (1 residential)
-
-## 40. 155 East 103 Street: 17 311 calls in two weeks; 15 class C violations
-*place · Manhattan · East Harlem · rank 0.727 (signal 0.727) · coverage: none found*
-
-- 311 calls 5.3x the building's pace over the prior 12 weeks
-- 17 311 calls Oct 18–31, 2026 (4 types over 8 days)
-- 30 HPD violations issued Oct 2–31, 2026 (15 class C)
-- 17 HPD complaints Oct 18–31, 2026
-- 1 OATH/ECB violations Oct 2–31, 2026
-- 1 marshal evictions Sep 2–Oct 31, 2026 (0 residential)
+- 19 311 calls Oct 21–Nov 3, 2026 (12 types over 7 days)
+- 28 HPD violations issued Oct 5–Nov 3, 2026 (8 class C)
+- 20 HPD complaints Oct 21–Nov 3, 2026
+- 1 DOB complaints Oct 5–Nov 3, 2026 (6S)
+- 1 marshal evictions Sep 5–Nov 3, 2026 (1 residential)
